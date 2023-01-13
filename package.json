@@ -1,0 +1,29 @@
+{
+    "name": "react-based-settings-page",
+    "version": "1.0.0",
+    "description": "react-based-settings-page",
+    "main": "src/index.js",
+    "scripts": {
+        "start:admin": "wp-scripts start src/settings/index.js --output-path=assets/admin/",
+        "build:admin": "wp-scripts build src/settings/index.js --output-path=assets/admin/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mhimon/react-based-admin-settings-page"
+    },
+    "keywords": [
+        "plugin"
+    ],
+    "author": "ultraDevs",
+    "license": "GPL",
+    "devDependencies": {
+        "@wordpress/scripts": "^18.1.0"
+    },
+    "dependencies": {
+        "@wordpress/dom-ready": "^3.2.2",
+        "@wordpress/icons": "^6.0.1",
+        "rc-switch": "^4.0.0",
+        "react": "^17.0.2",
+        "react-toastify": "^8.0.3"
+    }
+}
