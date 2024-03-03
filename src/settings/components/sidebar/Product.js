@@ -1,11 +1,11 @@
 import React from 'react';
-import ElementPlus from '../icons/ElementPlus';
+import WpbIcon from '../icons/WpbIcon';
 
 const Product = () => {
   return (
     <div className='wpb-sidebar-block'>
       <div className='wpb-admin-sidebar-logo'>
-        <ElementPlus />
+        <WpbIcon />
       </div>
       <div className='wpb-admin-sidebar-cta'>
         <a href='https://wpbranch.com/' target='_blank'>

@@ -48,6 +48,7 @@ const Docs = () => {
           familiar with Guten Plus. Build awesome websites for you or your
           clients with ease.
         </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam enim eos aspernatur cupiditate esse at inventore deserunt accusantium praesentium quis, est eius consequatur, placeat ducimus delectus dignissimos, vero et consectetur.</p>
         <a
           href='https://wpbranch.com/docs/'
           className='button button-primary'

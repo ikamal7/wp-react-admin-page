@@ -557,7 +557,7 @@ const Docs = () => {
     className: "wpb-admin-title"
   }, (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__.__)('Documentation', 'domain'))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "wpb-admin-block-content"
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Get started by spending some time with the documentation to get familiar with Guten Plus. Build awesome websites for you or your clients with ease."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Get started by spending some time with the documentation to get familiar with Guten Plus. Build awesome websites for you or your clients with ease."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam enim eos aspernatur cupiditate esse at inventore deserunt accusantium praesentium quis, est eius consequatur, placeat ducimus delectus dignissimos, vero et consectetur."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
     href: "https://wpbranch.com/docs/",
     className: "button button-primary",
     target: "_blank"
@@ -629,45 +629,6 @@ const Support = () => {
 
 /***/ }),
 
-/***/ "./src/settings/components/icons/ElementPlus.js":
-/*!******************************************************!*\
-  !*** ./src/settings/components/icons/ElementPlus.js ***!
-  \******************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wordpress/element */ "@wordpress/element");
-/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-
-
-const ElementPlus = () => {
-  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("svg", {
-    xmlns: "http://www.w3.org/2000/svg",
-    viewBox: "0 0 229.41 170.99"
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("g", {
-    id: "Layer_2",
-    "data-name": "Layer 2"
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("g", {
-    id: "Layer_1-2",
-    "data-name": "Layer 1"
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("path", {
-    d: "M102.41,67.62H0V35.42H102.41Zm127-.32H127V35.11H229.41Zm-67.3,35.11V0H194.3V102.41Z"
-  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("path", {
-    d: "M102.41,171H0v-32.2H102.41Z"
-  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("path", {
-    d: "M102.41,119.3H0V87.11H102.41Z"
-  }))));
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ElementPlus);
-
-/***/ }),
-
 /***/ "./src/settings/components/icons/Eye.js":
 /*!**********************************************!*\
   !*** ./src/settings/components/icons/Eye.js ***!
@@ -699,6 +660,27 @@ const Eye = () => {
 
 /***/ }),
 
+/***/ "./src/settings/components/icons/WpbIcon.js":
+/*!**************************************************!*\
+  !*** ./src/settings/components/icons/WpbIcon.js ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wordpress/element */ "@wordpress/element");
+/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__);
+
+const WpbIcon = () => {
+  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, "WpbIcon");
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (WpbIcon);
+
+/***/ }),
+
 /***/ "./src/settings/components/sidebar/Product.js":
 /*!****************************************************!*\
   !*** ./src/settings/components/sidebar/Product.js ***!
@@ -714,7 +696,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _icons_ElementPlus__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../icons/ElementPlus */ "./src/settings/components/icons/ElementPlus.js");
+/* harmony import */ var _icons_WpbIcon__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../icons/WpbIcon */ "./src/settings/components/icons/WpbIcon.js");
 
 
 
@@ -723,7 +705,7 @@ const Product = () => {
     className: "wpb-sidebar-block"
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "wpb-admin-sidebar-logo"
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_icons_ElementPlus__WEBPACK_IMPORTED_MODULE_2__["default"], null)), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_icons_WpbIcon__WEBPACK_IMPORTED_MODULE_2__["default"], null)), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "wpb-admin-sidebar-cta"
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
     href: "https://wpbranch.com/",
